@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_tech_ais",
+  "info": {
+    "displayName": "AI",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "cardTitle": {
+      "type": "string"
+    },
+    "cardDesc": {
+      "type": "string"
+    },
+    "cardImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "cardContent": {
+      "type": "richtext"
+    }
+  }
+}
